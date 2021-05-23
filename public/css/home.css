@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img {
+    width: 35px;
+}
+
+.center {
+    text-align: center;
+}
+
+#logo {
+    width: 40%;
+}
+
+
+/* Story Tab Design */
+
+.storyTab {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.story {
+    text-align: center;
+    width: 25% !important;
+    padding: 5px;
+}
+
+.story p {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.story-pic {
+    width: 50%;
+    border-radius: 100%;
+    padding: 2px;
+    border: 3px solid rgb(214, 1, 72);
+}
+
+#seen {
+    padding: 2px;
+    border: 3px solid rgb(233, 233, 233);
+}
+
+
+/* Posts Design */
+
+.posts-section {
+    margin-top: 20px;
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+.post-card {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.post-top {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.post-top-img {
+    border-radius: 100%;
+    width: 5%;
+    margin-left: 10px;
+    padding: 1px;
+    border: 2px solid rgb(214, 1, 72);
+}
+
+.post-content img {
+    width: 100%;
+}
+
+.post-top-username {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+
+/* Actions */
+
+.actionBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-left {
+    width: 80%;
+}
+
+.btn-right {
+    text-align: right;
+    width: 20%;
+}
+
+.btn-right img {
+    padding: 10px;
+}
+
+.btn {
+    width: 5%;
+}
+
+.btn-left img {
+    padding: 10px;
+}
+
+.btn-right img {
+    width: 20%;
+}
+
+
+/* Caption Design */
+
+.caption-username {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.caption p {
+    padding: 0px 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Footer */
+
+footer {
+    border-top: 1px solid whitesmoke;
+    position: fixed;
+    background-color: whitesmoke;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    margin: 10px;
+    width: 5%;
+}
+
+#profile {
+    border-radius: 100%;
+}
